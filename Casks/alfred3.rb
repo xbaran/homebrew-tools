@@ -8,15 +8,15 @@ cask 'alfred3' do
 
   auto_updates false
 
-  app "Alfred #{version.major}.app"
+  app "Alfred 3.app"
 
   uninstall quit: 'com.runningwithcrayons.Alfred'
 
   zap trash: [
-               '~/Library/Application Support/Alfred',
-               '~/Library/Caches/com.runningwithcrayons.Alfred',
-               '~/Library/Preferences/com.runningwithcrayons.Alfred.plist',
-               '~/Library/Preferences/com.runningwithcrayons.Alfred-Preferences.plist',
-               '~/Library/Saved Application State/com.runningwithcrayons.Alfred-Preferences.savedState',
+               '~/Library/Application Support/Alfred 3',
+               '~/Library/Caches/com.runningwithcrayons.Alfred-3',
+               '~/Library/Preferences/com.runningwithcrayons.Alfred-3.plist',
+               '~/Library/Preferences/com.runningwithcrayons.Alfred-Preferences-3.plist',
+               '~/Library/Saved Application State/com.runningwithcrayons.Alfred-Preferences-3.savedState',
              ]
 end
